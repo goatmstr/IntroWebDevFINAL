@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+body {
+  background-color: black;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+p {
+  font-size: 20px;
+  height: auto;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.article {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  height: auto;
+  width: 700px;
+}
+
+.articleimg {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 50px;
+}
+
+h1 {
+  display: flex;
+  font-size: 2.3rem;
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.brain-map {
+  position: relative;
+  left: 150px;
+  max-width: 600px;
+}
+
+.brain-area {
+  position: absolute;
+  max-width: 100px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.brain-area:hover {
+  transform: scale(1.1);
+}
+
+.homebutton {
+  max-width: 100px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.homebutton:hover {
+  transform: scale(1.1);
+}
+
+.brainimg {
+  z-index: -1;
+  position: absolute;
+  max-width: auto;
+  max-height: 73 0px;
+  left: 595px;
+  top: -70px;
+}
+
+.background {
+  position: absolute;
+
+  display: block;
+
+  top: 0;
+
+  left: 0;
+
+  z-index: -2;
+}
+
+.main-paragraph {
+  text-shadow: black 10px 0 10px;
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 5px;
+  border-top: 0px;
+  border-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+.drop-shadow {
+  text-shadow: #000000 1px 0 10px;
+}

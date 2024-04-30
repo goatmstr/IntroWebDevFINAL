@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Brain Rot</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script>      
+    window.onload = function() {
+        Particles.init({selector:'.background', color: ['#69c9d0', '#ee1d52', '#FFFFFF'], connectParticles: true, maxParticles: 300});
+      };
+    </script>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">
+        <img class="homebutton" src="brain.png" alt="brain logo"> 
+      </a>
+      <h2>Home.</h2>
+    </nav>
+    <div class="container">
+      <div class="article">
+        <img class="articleimg" src="tiktok.png" alt="TikTok logo">
+          <p class="main-paragraph" style="border-left-color: #69c9d0; border-bottom-color: #ee1d52;">
+            TikTok is a social media platform that focuses primarily on short form video content that can be consumed
+            quickly, this makes it an addicting source of instant dopamine. These videos are also curated by an algorithm 
+            that always finds content that you are interested in. This makes it difficult to close the app and stop 
+            scrolling because you are never getting bored of what you are seeing. And before you know it, you are doom 
+            scrolling for hours. When users are addicted, this can be a huge waste of time and source of procrastination.
+          </p>
+      </div>
+    </div>
+
+    <div class="container">
+      <canvas class="background"></canvas>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"
+    ></script>
+    </script>
+  </body>
+</html>

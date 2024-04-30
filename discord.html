@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Brain Rot</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script>      
+    window.onload = function() {
+        Particles.init({selector:'.background', color: ['#5865f2', '#FFFFFF', '#5865f2'], connectParticles: true, maxParticles: 300});
+      };
+    </script>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">
+        <img class="homebutton" src="brain.png" alt="brain logo"> 
+      </a>
+      <h2>Home.</h2>
+    </nav>
+    <div class="container">
+      <div class="article">
+        <img class="articleimg" src="discord.png" alt="Discord logo">
+          <p class="main-paragraph" style="border-left-color: #5865f2; border-bottom-color: #FFFFFF;">
+            Discord is a very popular app for communication among young people. Users can chat, voice call and video call
+            with other users on this app. What sets Discord apart is its ability to host entire communities of people with
+            a common interest through Discord servers. While this helps people connect, it can also paradoxically foster
+            social isolation. When users spend too much time on Discord, it can replace face to face interactions. This can 
+            be especially detrimental when the user is young and still developing socially.
+          </p>
+      </div>
+    </div>
+
+    <div class="container">
+      <canvas class="background"></canvas>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"
+    ></script>
+    </script>
+  </body>
+</html>
